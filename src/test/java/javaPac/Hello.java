@@ -1,5 +1,7 @@
 package javaPac;
 
+import java.util.Arrays;
+
 public class Hello {
 
 	
@@ -14,6 +16,11 @@ public class Hello {
 		StringBuilder rev= sb.reverse();
 		System.out.println(rev);
 		
+		String[] text= {"hello","programm","java","world"};
+		Arrays.sort(text);
+		for(String s: text) {
+			System.out.println(s);
+		}
 		
 	}
 }
